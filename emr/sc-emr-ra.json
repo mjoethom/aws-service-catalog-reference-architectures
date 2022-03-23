@@ -158,7 +158,7 @@
         }
     },
     "Resources": {
-        "LogBucket": {
+        "logbucketxyz": {
             "Type": "AWS::S3::Bucket",
             "DeletionPolicy": "Retain",            
             "Properties": {
@@ -383,7 +383,7 @@
         "S3LogBucket": {            
             "Description": "S3 Log Bucket",
             "Value": {
-                "Ref": "LogBucket"
+                "Ref": "logbucketxyz"
             }
         },
         "RemoteAccessSecurityGroup": {
